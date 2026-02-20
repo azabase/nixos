@@ -21,4 +21,12 @@
   programs.ssh.enable = true;
 
 
+
+  # --- SSH: pin explicit config to avoid future default changes ---
+  programs.ssh.enableDefaultConfig = false;
+  programs.ssh.matchBlocks."*".extraOptions = {
+    AddKeysToAgent = "yes";
+    IdentityFile = "~/.ssh/id_ed25519";
+  };
+
 }
