@@ -10,4 +10,9 @@
   home.packages = with pkgs; [
     hello
   ];
+
+  # --- Baseline user tools (home-manager) ---
+  programs.ssh.enable = true;
+
+
 }
