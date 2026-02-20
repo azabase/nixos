@@ -125,6 +125,7 @@
 }
 
 
+
   # --- BEGIN: home-manager (managed via flake) ---
   home-manager.useGlobalPkgs = true;
   home-manager.useUserPackages = true;
