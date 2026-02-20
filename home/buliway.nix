@@ -9,6 +9,7 @@
   # пока только тестовый пакет, чтобы проверить, что HM реально работает
   home.packages = with pkgs; [
     hello
+    terminator
     git
     openssh
     wget
