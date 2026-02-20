@@ -9,6 +9,12 @@
   # пока только тестовый пакет, чтобы проверить, что HM реально работает
   home.packages = with pkgs; [
     hello
+    git
+    openssh
+    wget
+    curl
+    ripgrep
+    fzf
   ];
 
   # --- Baseline user tools (home-manager) ---
