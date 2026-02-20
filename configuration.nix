@@ -122,14 +122,14 @@
   system.stateVersion = "25.11"; # Did you read the comment?
   nix.settings.auto-optimise-store = true;
   
-}
-
-
-
   # --- BEGIN: home-manager (managed via flake) ---
   home-manager.useGlobalPkgs = true;
   home-manager.useUserPackages = true;
   home-manager.users.buliway = import ./home/buliway.nix;
   # --- END: home-manager ---
+}
+
+
+
 
 
